@@ -972,9 +972,8 @@ body {
   .page-content {
     width: 91.67%;
     gap: 34px;
-
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 47px;
     padding: 0;
   }
 
@@ -984,7 +983,7 @@ body {
 
   .post {
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
     padding-bottom: 15px;
     border-bottom: 3px solid #ededed;
   }
@@ -1008,7 +1007,7 @@ body {
   }
 
   .post-description {
-    padding-right: 6.5px
+    padding-right: 2.7px
   }
 
   .side-bar {
@@ -1022,13 +1021,25 @@ body {
   }
 
   .side-post {
-    gap: 15px;
+    gap: 19px;
+  }
+
+  .subscribe-form {
+    margin-top: -4px;
+  }
+
+  .tags {
+    margin-bottom: 1px;
+  }
+
+  .categories-list {
+    margin-top: -4px;
   }
 
   .shop {
     width: 91.67%;
     padding: 0;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
   }
 
   .shop-title {
@@ -1040,8 +1051,25 @@ body {
     gap: 28px 23px;
   }
 
+  .image-wrp {
+    padding: 0 25px;
+  }
+
   .item-tittle {
     font-size: 17px;
+  }
+
+  .item-text {
+    margin-bottom: 20px;
+    margin-top: 4px;
+  }
+
+  .old-price {
+    min-height: 14px;
+  }
+
+  .price-link {
+    padding: 16px 0;
   }
 
   .footer {
@@ -1051,6 +1079,10 @@ body {
 
   .icon-list {
     margin-bottom: 50px;
+  }
+
+  .copyrights {
+    padding-left: 12px;
   }
 }
 
