@@ -253,6 +253,7 @@ body {
 .page-content {
   display: flex;
   gap: 121px;
+  justify-content: center;
   box-sizing: border-box;
   width: 72.2%;
 
@@ -1137,6 +1138,10 @@ body {
     width: 100%;
   }
 
+  .trend-content {
+    padding: 32px 20px 28px;
+  }
+
   .trends-title {
     font-size: 16px;
     margin-bottom: 24px;
@@ -1162,15 +1167,35 @@ body {
 
   .page-content {
     flex-direction: column;
+    gap: 30px;
+    margin-top: 44px;
   }
 
   .main {
-    gap: 35px;
+    gap: 36px;
+  }
+
+  .post {
+    padding-bottom: 19px;
+  }
+  .post-header {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .meta {
+    margin-bottom: 15px;
+  }
+
+  .post-description {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
   }
 
   .side-bar {
     max-width: 100%;
-    gap: 44px;
+    gap: 28px;
   }
 
   .side-section-title {
@@ -1178,22 +1203,16 @@ body {
     margin-top: 14px;
   }
 
-  .post-header {
-    font-size: 16px;
-    margin-bottom: 24px;
-  }
-
-  .meta {
-    margin-bottom: 24px;
-  }
-
-  .post-description {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
   .search-field {
     width: 100%;
+  }
+
+  .tag-list {
+    gap: 3.5px;
+  }
+
+  .tag-list-item {
+    padding: 3px 14px;
   }
 
   .shop {
@@ -1206,6 +1225,20 @@ body {
 
   .shop-items {
     grid-template-columns: 1fr;
+    gap: 23px;
+  }
+
+  .image-wrp {
+    padding: 0 23px;
+  }
+  
+  .item-content {
+    padding: 53px 17px 26px;
+    border-width: 3px;
+  }
+
+  .price-wrp {
+    padding-right: 6px;
   }
 }
 
