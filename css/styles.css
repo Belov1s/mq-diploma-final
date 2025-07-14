@@ -962,7 +962,7 @@ body {
   }
 
   .category-tags {
-    margin-bottom: 10px;;
+    margin-bottom: 8px;;
   }
 
   .card-header {
@@ -978,7 +978,7 @@ body {
   }
 
   .main {
-    gap: 42px;
+    gap: 43px;
   }
 
   .post {
@@ -994,7 +994,7 @@ body {
 
   .post-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 393px;
   }
 
   .post-header {
@@ -1007,7 +1007,7 @@ body {
   }
 
   .post-description {
-    padding-right: 2.7px
+    padding-right: 6.3px
   }
 
   .side-bar {
@@ -1039,7 +1039,7 @@ body {
   .shop {
     width: 91.67%;
     padding: 0;
-    margin-bottom: 55px;
+    margin-bottom: 51px;
   }
 
   .shop-title {
@@ -1048,7 +1048,7 @@ body {
 
   .shop-items {
     grid-template-columns: repeat(2, 1fr);
-    gap: 28px 23px;
+    gap: 28px 22px;
   }
 
   .image-wrp {
@@ -1057,6 +1057,10 @@ body {
 
   .item-tittle {
     font-size: 17px;
+  }
+
+  .item-content {
+    padding: 52px 20px 28px;
   }
 
   .item-text {
