@@ -1060,12 +1060,16 @@ body {
   }
 
   .item-content {
-    padding: 52px 20px 28px;
+    padding: 52px 22px 28px;
   }
 
   .item-text {
     margin-bottom: 20px;
     margin-top: 4px;
+  }
+
+  .price {
+    padding-left: 2px;
   }
 
   .old-price {
