@@ -32,7 +32,7 @@ body {
   margin: -1px;
   padding: 0;
   border: 0;
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
 
@@ -661,6 +661,7 @@ body {
 }
 
 .old-price {
+  min-height: 14px;
   display: block;
   font-size: 14px;
   text-decoration: line-through;
@@ -1071,10 +1072,6 @@ body {
 
   .price {
     padding-left: 2px;
-  }
-
-  .old-price {
-    min-height: 14px;
   }
 
   .price-link {
